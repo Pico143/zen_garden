@@ -1,0 +1,40 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: yellow;
+    margin: 20px;
+    padding: 0
+    background-color: white;
+    background-image: url(background.jpg);
+
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: mediumpurple;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: lighter;
+    color: whitesmoke;
+    margin: 0;
+    margin-bottom: 0.5em;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: lighter;
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+}

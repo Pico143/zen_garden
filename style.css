@@ -3,7 +3,7 @@ body {
     font-size: 14px;
     color: black;
     margin: 20px;
-    padding: 0
+    margin-right: 300px;
     background-color: white;
     background-image: url(background.jpg);
 
@@ -21,10 +21,8 @@ h1 {
     font-size: 3em;
     font-weight: lighter;
     color: blue;
-    margin: 0;
-    margin-bottom: 0.5em;
     text-align: center;
-    padding: 0.4em;
+    margin: 0;
 
 }
 
@@ -32,9 +30,8 @@ h2 {
     font-size: 2em;
     font-weight: lighter;
     color: gray;
-    margin: 0;
     text-align: center;
-    padding: 0.3em
+    margin: 0;
 }
 
 h3 {
@@ -42,6 +39,24 @@ h3 {
 }
 
 footer {
-    clear: both;
     text-align: center;
+    width: 100%;
+    height: 2em;
+    z-index: 10;
 }
+
+#design-selection {
+    position:absolute;
+    right: 1em;
+    top: 200px;
+
+}
+
+#zen-intro, #zen-benefits, #zen-explanation, #zen-participation, #zen-requirements {
+    margin: 0;
+    padding: 1em;
+    text-align: justify;
+    letter-spacing: 0.02em;
+}
+
+
